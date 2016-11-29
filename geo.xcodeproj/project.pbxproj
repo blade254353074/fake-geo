@@ -12,6 +12,7 @@
 		AAA135641DED7E860013C0D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA135621DED7E860013C0D1 /* Main.storyboard */; };
 		AAA135661DED7E860013C0D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA135651DED7E860013C0D1 /* Assets.xcassets */; };
 		AAA135691DED7E860013C0D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA135671DED7E860013C0D1 /* LaunchScreen.storyboard */; };
+		AAA135771DED8F700013C0D1 /* bupt.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AAA135761DED8F700013C0D1 /* bupt.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AAA135651DED7E860013C0D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAA135681DED7E860013C0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAA1356A1DED7E860013C0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA135761DED8F700013C0D1 /* bupt.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bupt.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		AAA135521DED7E860013C0D1 = {
 			isa = PBXGroup;
 			children = (
+				AAA135761DED8F700013C0D1 /* bupt.gpx */,
 				AAA1355D1DED7E860013C0D1 /* geo */,
 				AAA1355C1DED7E860013C0D1 /* Products */,
 			);
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					AAA1355A1DED7E860013C0D1 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6MQ3KW2H9N;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA135771DED8F700013C0D1 /* bupt.gpx in Resources */,
 				AAA135691DED7E860013C0D1 /* LaunchScreen.storyboard in Resources */,
 				AAA135661DED7E860013C0D1 /* Assets.xcassets in Resources */,
 				AAA135641DED7E860013C0D1 /* Main.storyboard in Resources */,
@@ -258,7 +263,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6MQ3KW2H9N;
 				INFOPLIST_FILE = geo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SebastianBlade.geo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,7 +278,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6MQ3KW2H9N;
 				INFOPLIST_FILE = geo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SebastianBlade.geo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
